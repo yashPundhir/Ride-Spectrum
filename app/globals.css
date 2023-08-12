@@ -43,6 +43,29 @@ body {
 	/* font-family: "Poppins", sans-serif; */
 }
 
+/* Scroll Bar Customization */
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+
+body {
+	scroll-behavior: smooth;
+}
+
 /* START: General styles */
 .max-width {
 	@apply max-w-[1440px] mx-auto;
@@ -91,8 +114,8 @@ body {
 }
 
 .hero__image-overlay {
-	overflow: hidden !important;
-	@apply absolute xl:-top-24 xl:-right-16 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px];
+	/* overflow: hidden !important; */
+	@apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
 }
 /* END: Hero styles */
 
