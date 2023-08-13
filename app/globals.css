@@ -51,6 +51,7 @@ body {
 
 ::-webkit-scrollbar-track {
 	background-color: #f1f1f1;
+	border-radius: 140px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -204,7 +205,7 @@ body {
 
 /* START: Custom Filter styles */
 .custom-filter__btn {
-	@apply relative w-full min-w-[127px] flex justify-between items-center cursor-default rounded-lg bg-white py-2 px-3 text-left shadow-md sm:text-sm border;
+	@apply relative w-full min-w-[127px] flex justify-between items-center cursor-default rounded-lg bg-white py-2 px-3 text-left shadow-lg sm:text-sm border-2;
 }
 
 .custom-filter__options {
