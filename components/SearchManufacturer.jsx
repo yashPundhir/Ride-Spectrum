@@ -21,7 +21,7 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }) => {
 			  );
 
 	return (
-		<div className="search-manufacturer border-2 border-gray-200 rounded-xl">
+		<div className="search-manufacturer border-2 border-gray-200 sm:border-r-0 rounded-full sm:rounded-r-none">
 			<Combobox value={manufacturer} onChange={setManufacturer}>
 				<div className="relative w-full">
 					<Combobox.Button className="absolute top-[14px]">
