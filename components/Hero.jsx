@@ -4,11 +4,16 @@ import Image from "next/image";
 import { CustomButton } from "./";
 
 const Hero = () => {
-	const handleScroll = () => {};
+	const handleScroll = () => {
+		const element = document.querySelector("#discover");
+		if (element) {
+			element.scrollIntoView({ behavior: "smooth" });
+		}
+	};
 
 	return (
 		<div className="hero">
-			<div className="flex-1 pt-36 padding-x">
+			<div className="flex-1 pt-24 sm:pt-36 padding-x">
 				<h1 className="hero__title">
 					Find, Book, or Rent a Car — Quickly and Easily!
 				</h1>
