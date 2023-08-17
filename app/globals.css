@@ -89,7 +89,7 @@ body {
 }
 
 .custom-btn {
-	@apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
+	@apply flex flex-row relative justify-center items-center py-3 truncate px-6 outline-none;
 }
 /* END: General styles */
 
@@ -131,7 +131,7 @@ body {
 }
 
 .home__filter-container {
-	@apply flex justify-start flex-wrap items-center gap-2;
+	@apply flex justify-start flex-wrap items-center gap-4;
 }
 
 .home__cars-wrapper {
