@@ -89,7 +89,7 @@ body {
 }
 
 .custom-btn {
-	@apply flex flex-row relative justify-center items-center py-3 truncate px-6 outline-none;
+	@apply flex flex-row relative justify-center items-center py-3 text-clip md:px-6 px-4  outline-none;
 }
 /* END: General styles */
 
