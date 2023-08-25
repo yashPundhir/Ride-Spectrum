@@ -22,14 +22,14 @@ const Navbar = () => {
 						alt="logo"
 						width={300}
 						height={50}
-						className="object-contain sm:w-[300px] xs:w-[200px] w-[150px]"
+						className="object-contain sm:w-[300px] xs:w-[200px] w-[170px]"
 					/>
 				</Link>
 				<CustomButton
 					title="Scroll to Cars"
 					btnType="button"
 					handleClick={handleClick}
-					containerStyles="text-primary-blue rounded-full bg-white  md:min-w-[130px] border-2 border-blue-500 font-bold xs:text-sm text-xs sm:text-lg sm:w-auto xs:w-[180px] w-[120px]"
+					containerStyles="text-primary-blue rounded-full bg-white  md:min-w-[130px] border-2 border-blue-500 font-bold xs:text-sm text-[10px] sm:text-lg sm:w-auto xs:w-[180px] w-[120px]"
 				/>
 			</nav>
 		</header>
